@@ -43,6 +43,15 @@ import { GctCoimbatoreComponent } from './colleges/gct-coimbatore/gct-coimbatore
 import { MitChennaiDetailsComponent } from './colleges/mit-chennai/mit-chennai-details/mit-chennai-details.component';
 import { MitChennaiViewformComponent } from './colleges/mit-chennai/mit-chennai-viewform/mit-chennai-viewform.component';
 import { MitChennaiComponent } from './colleges/mit-chennai/mit-chennai.component';
+import { PeriyarVellorDetailsComponent } from './colleges/periyar-vellor/periyar-vellor-details/periyar-vellor-details.component';
+import { PeriyarVellorViewformComponent } from './colleges/periyar-vellor/periyar-vellor-viewform/periyar-vellor-viewform.component';
+import { PeriyarVellorComponent } from './colleges/periyar-vellor/periyar-vellor.component';
+import { PsgCoimbatoreDetailsComponent } from './colleges/psg-coimbatore/psg-coimbatore-details/psg-coimbatore-details.component';
+import { PsgCoimbatoreViewformComponent } from './colleges/psg-coimbatore/psg-coimbatore-viewform/psg-coimbatore-viewform.component';
+import { PsgCoimbatoreComponent } from './colleges/psg-coimbatore/psg-coimbatore.component';
+import { ThiagarajarMaduraiDetailsComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai-details/thiagarajar-madurai-details.component';
+import { ThiagarajarMaduraiViewformComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai-viewform/thiagarajar-madurai-viewform.component';
+import { ThiagarajarMaduraiComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { LoginComponent } from './login/login.component';
 import { ViewFormComponent } from './view-form/view-form.component';
@@ -188,6 +197,33 @@ const routes: Routes = [
     children: [
       { path: '', component: MitChennaiDetailsComponent },
       { path: 'mit-chennai-viewform', component: MitChennaiViewformComponent }
+    ]
+  },
+
+  { path: 'periyar-vellor', component: PeriyarVellorComponent },
+  {
+    path: 'periyar-vellor-details',
+    children: [
+      { path: '', component: PeriyarVellorDetailsComponent },
+      { path: 'periyar-vellor-viewform', component: PeriyarVellorViewformComponent }
+    ]
+  },
+
+  { path: 'psg-coimbatore', component: PsgCoimbatoreComponent },
+  {
+    path: 'psg-coimbatore-details',
+    children: [
+      { path: '', component: PsgCoimbatoreDetailsComponent },
+      { path: 'psg-coimbatore-viewform', component: PsgCoimbatoreViewformComponent }
+    ]
+  },
+
+  { path: 'thiagarajar-madurai', component: ThiagarajarMaduraiComponent },
+  {
+    path: 'thiagarajar-madurai-details',
+    children: [
+      { path: '', component: ThiagarajarMaduraiDetailsComponent },
+      { path: 'thiagarajar-madurai-viewform', component: ThiagarajarMaduraiViewformComponent }
     ]
   },
 

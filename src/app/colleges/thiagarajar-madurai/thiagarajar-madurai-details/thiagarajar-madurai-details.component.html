@@ -117,33 +117,28 @@
                                 <select class="form-control" formControlName="course" style="max-width: 400px;"
                                     [ngClass]="{ 'is-invalid': submitted && f.course.errors }">
                                     <option value="">Choose...</option>
-                                    <option value="M.E Applied Electronics (4001)">M.E Applied Electronics (4001)
+                                    <option value="M.E Communication Systems (SS-FT) (4304)">M.E Communication Systems
+                                        (SS-FT) (4304)
                                     </option>
-                                    <option value="M.E Computer Science and Engineering (4005)">M.E Computer Science and
-                                        Engineering (4005)
+                                    <option value="M.E Computer Science and Engineering (SS-FT) (4305)">M.E Computer
+                                        Science and Engineering (SS-FT) (4305)
                                     </option>
-                                    <option value="M.E Engineering Design (2001)">M.E Engineering Design (2001)
+                                    <option value="M.E Environmental Engineering (SS-FT) (1301)">M.E Environmental
+                                        Engineering (SS-FT) (1301)
                                     </option>
-                                    <option value="M.E Environmental Engineering (1001)">M.E Environmental Engineering
-                                        (1001)
+                                    <option value="M.E Industrial Engineering(SS-FT) (2302)">M.E Industrial
+                                        Engineering(SS-FT) (2302)
                                     </option>
-                                    <option value="M.E Geo Technical Engineering (1015)">M.E Geo Technical Engineering
-                                        (1015)
+                                    <option value="M.E Infrastructure Engg. and Management(SS-FT) (1320)">M.E
+                                        Infrastructure Engg. and Management(SS-FT) (1320)
                                     </option>
-                                    <option value="M.E Manufacturing Engineering (2013)">M.E Manufacturing Engineering
-                                        (2013)
+                                    <option value="M.Arch - M.Arch (SS-FT) (6303)">M.Arch - M.Arch (SS-FT) (6303)
                                     </option>
-                                    <option value="M.E Power Electronics & Drives (3004)">M.E Power Electronics & Drives
-                                        (3004)
+                                    <option value="M.E Power Systems Engineering (SS-FT) (3301)">M.E Power Systems
+                                        Engineering (SS-FT) (3301)
                                     </option>
-                                    <option value="M.E Power Systems Engineering (3001)">M.E Power Systems Engineering
-                                        (3001)
-                                    </option>
-                                    <option value="M.E Structural Engineering (1002)">M.E Structural Engineering (1002)
-                                    </option>
-                                    <option value="M.E Thermal Engineering (2017)">M.E Thermal Engineering (2017)
-                                    </option>
-                                    <option value="M.E VLSI Design (4008)">M.E VLSI Design (4008)
+                                    <option value="M.E Structural Engineering (SS-FT) (1302)">M.E Structural Engineering
+                                        (SS-FT) (1302)
                                     </option>
                                 </select>
                                 <div *ngIf="submitted && f.course.errors" class="invalid-feedback">
@@ -408,7 +403,7 @@
                         <tr>
                             <td id="detail-name" class="pt-2"></td>
                             <td id="detail-gama" class="pt-3">
-                                <button class="btn btn-primary m-3" routerLink="/gct-coimbatore">Back</button>
+                                <button class="btn btn-primary m-3" routerLink="/thiagarajar-madurai">Back</button>
                                 <button class="btn btn-secondary m-3" type="reset" (click)="onReset()">Feed</button>
                                 <button class="btn btn-primary m-3">Feed Next</button>
                                 <button class="btn btn-secondary m-3" (click)="nextpage()">Generate</button>

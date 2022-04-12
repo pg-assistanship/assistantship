@@ -137,7 +137,7 @@ export class ThiagarajarMaduraiDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['gct-coimbatore-viewform'], { relativeTo: this.route })
+    this.router.navigate(['thiagarajar-madurai-viewform'], { relativeTo: this.route })
   }
 
   toggle() {

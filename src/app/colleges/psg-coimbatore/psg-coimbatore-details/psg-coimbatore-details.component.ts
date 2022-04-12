@@ -137,7 +137,7 @@ export class PsgCoimbatoreDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['gct-coimbatore-viewform'], { relativeTo: this.route })
+    this.router.navigate(['psg-coimbatore-viewform'], { relativeTo: this.route })
   }
 
   toggle() {

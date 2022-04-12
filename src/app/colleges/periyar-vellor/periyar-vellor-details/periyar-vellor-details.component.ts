@@ -137,7 +137,7 @@ export class PeriyarVellorDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['gct-coimbatore-viewform'], { relativeTo: this.route })
+    this.router.navigate(['periyar-vellor-viewform'], { relativeTo: this.route })
   }
 
   toggle() {
