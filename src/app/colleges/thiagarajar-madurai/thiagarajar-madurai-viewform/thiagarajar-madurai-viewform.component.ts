@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import * as XLSX from 'xlsx';
 
+
 export interface data {
   _id: any,
   academic: any,
@@ -28,11 +29,11 @@ export interface data {
 }
 
 @Component({
-  selector: 'app-gce-tirunelveli-viewform',
-  templateUrl: './gce-tirunelveli-viewform.component.html',
-  styleUrls: ['./gce-tirunelveli-viewform.component.css']
+  selector: 'app-thiagarajar-madurai-viewform',
+  templateUrl: './thiagarajar-madurai-viewform.component.html',
+  styleUrls: ['./thiagarajar-madurai-viewform.component.css']
 })
-export class GceTirunelveliViewformComponent implements OnInit {
+export class ThiagarajarMaduraiViewformComponent implements OnInit {
 
   fileName = 'ExcelSheet.xlsx';
 
@@ -67,4 +68,5 @@ export class GceTirunelveliViewformComponent implements OnInit {
   }
 
 }
+
 

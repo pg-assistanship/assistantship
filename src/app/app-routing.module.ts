@@ -28,9 +28,21 @@ import { CitCoimbatoreComponent } from './colleges/cit-coimbatore/cit-coimbatore
 import { GceBargurDetailsComponent } from './colleges/gce-bargur/gce-bargur-details/gce-bargur-details.component';
 import { GceBargurViewformComponent } from './colleges/gce-bargur/gce-bargur-viewform/gce-bargur-viewform.component';
 import { GceBargurComponent } from './colleges/gce-bargur/gce-bargur.component';
+import { GceErodeDetailsComponent } from './colleges/gce-erode/gce-erode-details/gce-erode-details.component';
+import { GceErodeViewformComponent } from './colleges/gce-erode/gce-erode-viewform/gce-erode-viewform.component';
+import { GceErodeComponent } from './colleges/gce-erode/gce-erode.component';
 import { GceSalemDetailsComponent } from './colleges/gce-salem/gce-salem-details/gce-salem-details.component';
 import { GceSalemViewformComponent } from './colleges/gce-salem/gce-salem-viewform/gce-salem-viewform.component';
 import { GceSalemComponent } from './colleges/gce-salem/gce-salem.component';
+import { GceTirunelveliDetailsComponent } from './colleges/gce-tirunelveli/gce-tirunelveli-details/gce-tirunelveli-details.component';
+import { GceTirunelveliViewformComponent } from './colleges/gce-tirunelveli/gce-tirunelveli-viewform/gce-tirunelveli-viewform.component';
+import { GceTirunelveliComponent } from './colleges/gce-tirunelveli/gce-tirunelveli.component';
+import { GctCoimbatoreDetailsComponent } from './colleges/gct-coimbatore/gct-coimbatore-details/gct-coimbatore-details.component';
+import { GctCoimbatoreViewformComponent } from './colleges/gct-coimbatore/gct-coimbatore-viewform/gct-coimbatore-viewform.component';
+import { GctCoimbatoreComponent } from './colleges/gct-coimbatore/gct-coimbatore.component';
+import { MitChennaiDetailsComponent } from './colleges/mit-chennai/mit-chennai-details/mit-chennai-details.component';
+import { MitChennaiViewformComponent } from './colleges/mit-chennai/mit-chennai-viewform/mit-chennai-viewform.component';
+import { MitChennaiComponent } from './colleges/mit-chennai/mit-chennai.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { LoginComponent } from './login/login.component';
 import { ViewFormComponent } from './view-form/view-form.component';
@@ -140,6 +152,42 @@ const routes: Routes = [
     children: [
       { path: '', component: GceBargurDetailsComponent },
       { path: 'gce-bargur-viewform', component: GceBargurViewformComponent }
+    ]
+  },
+
+  { path: 'gce-erode', component: GceErodeComponent },
+  {
+    path: 'gce-erode-details',
+    children: [
+      { path: '', component: GceErodeDetailsComponent },
+      { path: 'gce-erode-viewform', component: GceErodeViewformComponent }
+    ]
+  },
+
+  { path: 'gce-tirunelveli', component: GceTirunelveliComponent },
+  {
+    path: 'gce-tirunelveli-details',
+    children: [
+      { path: '', component: GceTirunelveliDetailsComponent },
+      { path: 'gce-tirunelveli-viewform', component: GceTirunelveliViewformComponent }
+    ]
+  },
+
+  { path: 'gct-coimbatore', component: GctCoimbatoreComponent },
+  {
+    path: 'gct-coimbatore-details',
+    children: [
+      { path: '', component: GctCoimbatoreDetailsComponent },
+      { path: 'gct-coimbatore-viewform', component: GctCoimbatoreViewformComponent }
+    ]
+  },
+
+  { path: 'mit-chennai', component: MitChennaiComponent },
+  {
+    path: 'mit-chennai-details',
+    children: [
+      { path: '', component: MitChennaiDetailsComponent },
+      { path: 'mit-chennai-viewform', component: MitChennaiViewformComponent }
     ]
   },
 

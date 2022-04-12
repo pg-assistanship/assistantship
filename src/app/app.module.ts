@@ -70,6 +70,15 @@ import { AdminpageComponent } from './admin-login/adminpage/adminpage.component'
 import { AdminUniversityComponent } from './admin-university/admin-university.component';
 import { AdminUniversityViewpageComponent } from './admin-university/admin-university-viewpage/admin-university-viewpage.component';
 import { FilterPipe } from './admin-login/filter.pipe';
+import { MitChennaiDetailsComponent } from './colleges/mit-chennai/mit-chennai-details/mit-chennai-details.component';
+import { MitChennaiViewformComponent } from './colleges/mit-chennai/mit-chennai-viewform/mit-chennai-viewform.component';
+import { PeriyarVellorDetailsComponent } from './colleges/periyar-vellor/periyar-vellor-details/periyar-vellor-details.component';
+import { PeriyarVellorViewformComponent } from './colleges/periyar-vellor/periyar-vellor-viewform/periyar-vellor-viewform.component';
+import { PsgCoimbatoreDetailsComponent } from './colleges/psg-coimbatore/psg-coimbatore-details/psg-coimbatore-details.component';
+import { PsgCoimbatoreViewformComponent } from './colleges/psg-coimbatore/psg-coimbatore-viewform/psg-coimbatore-viewform.component';
+import { ThiagarajarMaduraiDetailsComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai-details/thiagarajar-madurai-details.component';
+import { ThiagarajarMaduraiViewformComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai-viewform/thiagarajar-madurai-viewform.component';
+
 
 
 @NgModule({
@@ -139,6 +148,14 @@ import { FilterPipe } from './admin-login/filter.pipe';
     AdminUniversityComponent,
     AdminUniversityViewpageComponent,
     FilterPipe,
+    MitChennaiDetailsComponent,
+    MitChennaiViewformComponent,
+    PeriyarVellorDetailsComponent,
+    PeriyarVellorViewformComponent,
+    PsgCoimbatoreDetailsComponent,
+    PsgCoimbatoreViewformComponent,
+    ThiagarajarMaduraiDetailsComponent,
+    ThiagarajarMaduraiViewformComponent,
 
   ],
   imports: [

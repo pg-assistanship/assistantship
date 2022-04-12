@@ -4,12 +4,11 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-gce-tirunelveli-details',
-  templateUrl: './gce-tirunelveli-details.component.html',
-  styleUrls: ['./gce-tirunelveli-details.component.css']
+  selector: 'app-mit-chennai-details',
+  templateUrl: './mit-chennai-details.component.html',
+  styleUrls: ['./mit-chennai-details.component.css']
 })
-export class GceTirunelveliDetailsComponent implements OnInit {
-
+export class MitChennaiDetailsComponent implements OnInit {
   current_sem1 = false
   history_of_arrear = false
   lackattendance = false
@@ -137,7 +136,7 @@ export class GceTirunelveliDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['gce-tirunelveli-viewform'], { relativeTo: this.route })
+    this.router.navigate(['mit-chennai-viewform'], { relativeTo: this.route })
   }
 
   toggle() {

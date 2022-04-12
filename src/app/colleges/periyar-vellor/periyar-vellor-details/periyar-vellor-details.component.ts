@@ -4,11 +4,11 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-gce-tirunelveli-details',
-  templateUrl: './gce-tirunelveli-details.component.html',
-  styleUrls: ['./gce-tirunelveli-details.component.css']
+  selector: 'app-periyar-vellor-details',
+  templateUrl: './periyar-vellor-details.component.html',
+  styleUrls: ['./periyar-vellor-details.component.css']
 })
-export class GceTirunelveliDetailsComponent implements OnInit {
+export class PeriyarVellorDetailsComponent implements OnInit {
 
   current_sem1 = false
   history_of_arrear = false
@@ -137,7 +137,7 @@ export class GceTirunelveliDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['gce-tirunelveli-viewform'], { relativeTo: this.route })
+    this.router.navigate(['gct-coimbatore-viewform'], { relativeTo: this.route })
   }
 
   toggle() {
