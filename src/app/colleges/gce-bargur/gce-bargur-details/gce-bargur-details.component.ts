@@ -137,7 +137,7 @@ export class GceBargurDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['cit-coimbatore-viewform'], { relativeTo: this.route })
+    this.router.navigate(['gce-bargur-viewform'], { relativeTo: this.route })
   }
 
   toggle() {
