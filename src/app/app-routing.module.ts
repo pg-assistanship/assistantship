@@ -52,6 +52,15 @@ import { PsgCoimbatoreComponent } from './colleges/psg-coimbatore/psg-coimbatore
 import { ThiagarajarMaduraiDetailsComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai-details/thiagarajar-madurai-details.component';
 import { ThiagarajarMaduraiViewformComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai-viewform/thiagarajar-madurai-viewform.component';
 import { ThiagarajarMaduraiComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai.component';
+import { UniversityAriyalurDetailsComponent } from './colleges/university-ariyalur/university-ariyalur-details/university-ariyalur-details.component';
+import { UniversityAriyalurViewformComponent } from './colleges/university-ariyalur/university-ariyalur-viewform/university-ariyalur-viewform.component';
+import { UniversityAriyalurComponent } from './colleges/university-ariyalur/university-ariyalur.component';
+import { UniversityDindigulDetailsComponent } from './colleges/university-dindigul/university-dindigul-details/university-dindigul-details.component';
+import { UniversityDindigulViewformComponent } from './colleges/university-dindigul/university-dindigul-viewform/university-dindigul-viewform.component';
+import { UniversityDindigulComponent } from './colleges/university-dindigul/university-dindigul.component';
+import { UniversityKanchepuramDetailsComponent } from './colleges/university-kanchepuram/university-kanchepuram-details/university-kanchepuram-details.component';
+import { UniversityKanchepuramViewformComponent } from './colleges/university-kanchepuram/university-kanchepuram-viewform/university-kanchepuram-viewform.component';
+import { UniversityKanchepuramComponent } from './colleges/university-kanchepuram/university-kanchepuram.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { LoginComponent } from './login/login.component';
 import { ViewFormComponent } from './view-form/view-form.component';
@@ -224,6 +233,33 @@ const routes: Routes = [
     children: [
       { path: '', component: ThiagarajarMaduraiDetailsComponent },
       { path: 'thiagarajar-madurai-viewform', component: ThiagarajarMaduraiViewformComponent }
+    ]
+  },
+
+  { path: 'uni-ariyalur', component: UniversityAriyalurComponent },
+  {
+    path: 'uni-ariyalur-details',
+    children: [
+      { path: '', component: UniversityAriyalurDetailsComponent },
+      { path: 'uni-ariyalur-viewform', component: UniversityAriyalurViewformComponent }
+    ]
+  },
+
+  { path: 'uni-dindigul', component: UniversityDindigulComponent },
+  {
+    path: 'uni-dindigul-details',
+    children: [
+      { path: '', component: UniversityDindigulDetailsComponent },
+      { path: 'uni-dindigul-viewform', component: UniversityDindigulViewformComponent }
+    ]
+  },
+
+  { path: 'uni-kanchepuram', component: UniversityKanchepuramComponent },
+  {
+    path: 'uni-kanchepuram-details',
+    children: [
+      { path: '', component: UniversityKanchepuramDetailsComponent },
+      { path: 'uni-kanchepuram-viewform', component: UniversityKanchepuramViewformComponent }
     ]
   },
 

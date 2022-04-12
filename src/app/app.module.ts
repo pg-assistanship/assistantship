@@ -78,6 +78,16 @@ import { PsgCoimbatoreDetailsComponent } from './colleges/psg-coimbatore/psg-coi
 import { PsgCoimbatoreViewformComponent } from './colleges/psg-coimbatore/psg-coimbatore-viewform/psg-coimbatore-viewform.component';
 import { ThiagarajarMaduraiDetailsComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai-details/thiagarajar-madurai-details.component';
 import { ThiagarajarMaduraiViewformComponent } from './colleges/thiagarajar-madurai/thiagarajar-madurai-viewform/thiagarajar-madurai-viewform.component';
+import { UniversityAriyalurDetailsComponent } from './colleges/university-ariyalur/university-ariyalur-details/university-ariyalur-details.component';
+import { UniversityAriyalurViewformComponent } from './colleges/university-ariyalur/university-ariyalur-viewform/university-ariyalur-viewform.component';
+import { UniversityDindigulDetailsComponent } from './colleges/university-dindigul/university-dindigul-details/university-dindigul-details.component';
+import { UniversityDindigulViewformComponent } from './colleges/university-dindigul/university-dindigul-viewform/university-dindigul-viewform.component';
+import { UniversityKanchepuramDetailsComponent } from './colleges/university-kanchepuram/university-kanchepuram-details/university-kanchepuram-details.component';
+import { UniversityKanchepuramViewformComponent } from './colleges/university-kanchepuram/university-kanchepuram-viewform/university-kanchepuram-viewform.component';
+import { UniversityNagercoilDetailsComponent } from './colleges/university-nagercoil/university-nagercoil-details/university-nagercoil-details.component';
+import { UniversityNagercoilViewformComponent } from './colleges/university-nagercoil/university-nagercoil-viewform/university-nagercoil-viewform.component';
+import { UniversityPanrutiiDetailsComponent } from './colleges/university-panruti/university-panrutii-details/university-panrutii-details.component';
+import { UniversityPanrutiiViewformComponent } from './colleges/university-panruti/university-panrutii-viewform/university-panrutii-viewform.component';
 
 
 
@@ -156,6 +166,16 @@ import { ThiagarajarMaduraiViewformComponent } from './colleges/thiagarajar-madu
     PsgCoimbatoreViewformComponent,
     ThiagarajarMaduraiDetailsComponent,
     ThiagarajarMaduraiViewformComponent,
+    UniversityAriyalurDetailsComponent,
+    UniversityAriyalurViewformComponent,
+    UniversityDindigulDetailsComponent,
+    UniversityDindigulViewformComponent,
+    UniversityKanchepuramDetailsComponent,
+    UniversityKanchepuramViewformComponent,
+    UniversityNagercoilDetailsComponent,
+    UniversityNagercoilViewformComponent,
+    UniversityPanrutiiDetailsComponent,
+    UniversityPanrutiiViewformComponent,
 
   ],
   imports: [
