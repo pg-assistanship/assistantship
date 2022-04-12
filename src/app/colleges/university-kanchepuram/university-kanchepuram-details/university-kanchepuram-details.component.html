@@ -117,7 +117,7 @@
                                 <select class="form-control" formControlName="course" style="max-width: 400px;"
                                     [ngClass]="{ 'is-invalid': submitted && f.course.errors }">
                                     <option value="">Choose...</option>
-                                    <option value="M.E Communication Systems (SS-FT) (4304)">M.E Communication Systems
+                                    <!-- <option value="M.E Communication Systems (SS-FT) (4304)">M.E Communication Systems
                                         (SS-FT) (4304)
                                     </option>
                                     <option value="M.E Computer Science and Engineering (SS-FT) (4305)">M.E Computer
@@ -139,7 +139,7 @@
                                     </option>
                                     <option value="M.E Structural Engineering (SS-FT) (1302)">M.E Structural Engineering
                                         (SS-FT) (1302)
-                                    </option>
+                                    </option> -->
                                 </select>
                                 <div *ngIf="submitted && f.course.errors" class="invalid-feedback">
                                     <div *ngIf="f.course.errors.required">Course is required</div>
@@ -403,7 +403,7 @@
                         <tr>
                             <td id="detail-name" class="pt-2"></td>
                             <td id="detail-gama" class="pt-3">
-                                <button class="btn btn-primary m-3" routerLink="/thiagarajar-madurai">Back</button>
+                                <button class="btn btn-primary m-3" routerLink="/uni-kanchepuram">Back</button>
                                 <button class="btn btn-secondary m-3" type="reset" (click)="onReset()">Feed</button>
                                 <button class="btn btn-primary m-3">Feed Next</button>
                                 <button class="btn btn-secondary m-3" (click)="nextpage()">Generate</button>

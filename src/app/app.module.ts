@@ -88,6 +88,22 @@ import { UniversityNagercoilDetailsComponent } from './colleges/university-nager
 import { UniversityNagercoilViewformComponent } from './colleges/university-nagercoil/university-nagercoil-viewform/university-nagercoil-viewform.component';
 import { UniversityPanrutiiDetailsComponent } from './colleges/university-panruti/university-panrutii-details/university-panrutii-details.component';
 import { UniversityPanrutiiViewformComponent } from './colleges/university-panruti/university-panrutii-viewform/university-panrutii-viewform.component';
+import { UniversityPattukodaiDetailsComponent } from './colleges/university-pattukodai/university-pattukodai-details/university-pattukodai-details.component';
+import { UniversityPattukodaiViewformComponent } from './colleges/university-pattukodai/university-pattukodai-viewform/university-pattukodai-viewform.component';
+import { UniversityRamanathapuramDetailsComponent } from './colleges/university-ramanathapuram/university-ramanathapuram-details/university-ramanathapuram-details.component';
+import { UniversityRamanathapuramViewformComponent } from './colleges/university-ramanathapuram/university-ramanathapuram-viewform/university-ramanathapuram-viewform.component';
+import { UniversityThindivanamDetailsComponent } from './colleges/university-thindivanam/university-thindivanam-details/university-thindivanam-details.component';
+import { UniversityThindivanamViewformComponent } from './colleges/university-thindivanam/university-thindivanam-viewform/university-thindivanam-viewform.component';
+import { UniversityThiruchirappalliDetailsComponent } from './colleges/university-thiruchirappalli/university-thiruchirappalli-details/university-thiruchirappalli-details.component';
+import { UniversityThiruchirappalliViewformComponent } from './colleges/university-thiruchirappalli/university-thiruchirappalli-viewform/university-thiruchirappalli-viewform.component';
+import { UniversityThirukkuvalaiDetailsComponent } from './colleges/university-thirukkuvalai/university-thirukkuvalai-details/university-thirukkuvalai-details.component';
+import { UniversityThirukkuvalaiViewformComponent } from './colleges/university-thirukkuvalai/university-thirukkuvalai-viewform/university-thirukkuvalai-viewform.component';
+import { UniversityThiruvannamalaiDetailsComponent } from './colleges/university-thiruvannamalai/university-thiruvannamalai-details/university-thiruvannamalai-details.component';
+import { UniversityThiruvannamalaiViewformComponent } from './colleges/university-thiruvannamalai/university-thiruvannamalai-viewform/university-thiruvannamalai-viewform.component';
+import { UniversityThoothukudiDetailsComponent } from './colleges/university-thoothukudi/university-thoothukudi-details/university-thoothukudi-details.component';
+import { UniversityThoothukudiViewformComponent } from './colleges/university-thoothukudi/university-thoothukudi-viewform/university-thoothukudi-viewform.component';
+import { UniversityVillupuramDetailsComponent } from './colleges/university-villupuram/university-villupuram-details/university-villupuram-details.component';
+import { UniversityVillupuramViewformComponent } from './colleges/university-villupuram/university-villupuram-viewform/university-villupuram-viewform.component';
 
 
 
@@ -176,6 +192,22 @@ import { UniversityPanrutiiViewformComponent } from './colleges/university-panru
     UniversityNagercoilViewformComponent,
     UniversityPanrutiiDetailsComponent,
     UniversityPanrutiiViewformComponent,
+    UniversityPattukodaiDetailsComponent,
+    UniversityPattukodaiViewformComponent,
+    UniversityRamanathapuramDetailsComponent,
+    UniversityRamanathapuramViewformComponent,
+    UniversityThindivanamDetailsComponent,
+    UniversityThindivanamViewformComponent,
+    UniversityThiruchirappalliDetailsComponent,
+    UniversityThiruchirappalliViewformComponent,
+    UniversityThirukkuvalaiDetailsComponent,
+    UniversityThirukkuvalaiViewformComponent,
+    UniversityThiruvannamalaiDetailsComponent,
+    UniversityThiruvannamalaiViewformComponent,
+    UniversityThoothukudiDetailsComponent,
+    UniversityThoothukudiViewformComponent,
+    UniversityVillupuramDetailsComponent,
+    UniversityVillupuramViewformComponent,
 
   ],
   imports: [

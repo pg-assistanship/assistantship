@@ -61,6 +61,12 @@ import { UniversityDindigulComponent } from './colleges/university-dindigul/univ
 import { UniversityKanchepuramDetailsComponent } from './colleges/university-kanchepuram/university-kanchepuram-details/university-kanchepuram-details.component';
 import { UniversityKanchepuramViewformComponent } from './colleges/university-kanchepuram/university-kanchepuram-viewform/university-kanchepuram-viewform.component';
 import { UniversityKanchepuramComponent } from './colleges/university-kanchepuram/university-kanchepuram.component';
+import { UniversityNagercoilDetailsComponent } from './colleges/university-nagercoil/university-nagercoil-details/university-nagercoil-details.component';
+import { UniversityNagercoilViewformComponent } from './colleges/university-nagercoil/university-nagercoil-viewform/university-nagercoil-viewform.component';
+import { UniversityNagercoilComponent } from './colleges/university-nagercoil/university-nagercoil.component';
+import { UniversityPanrutiComponent } from './colleges/university-panruti/university-panruti.component';
+import { UniversityPanrutiiDetailsComponent } from './colleges/university-panruti/university-panrutii-details/university-panrutii-details.component';
+import { UniversityPanrutiiViewformComponent } from './colleges/university-panruti/university-panrutii-viewform/university-panrutii-viewform.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { LoginComponent } from './login/login.component';
 import { ViewFormComponent } from './view-form/view-form.component';
@@ -260,6 +266,24 @@ const routes: Routes = [
     children: [
       { path: '', component: UniversityKanchepuramDetailsComponent },
       { path: 'uni-kanchepuram-viewform', component: UniversityKanchepuramViewformComponent }
+    ]
+  },
+
+  { path: 'uni-nagercoil', component: UniversityNagercoilComponent },
+  {
+    path: 'uni-nagercoil-details',
+    children: [
+      { path: '', component: UniversityNagercoilDetailsComponent },
+      { path: 'uni-nagercoil-viewform', component: UniversityNagercoilViewformComponent }
+    ]
+  },
+
+  { path: 'uni-panruti', component: UniversityPanrutiComponent },
+  {
+    path: 'uni-panruti-details',
+    children: [
+      { path: '', component: UniversityPanrutiiDetailsComponent },
+      { path: 'uni-panruti-viewform', component: UniversityPanrutiiViewformComponent }
     ]
   },
 

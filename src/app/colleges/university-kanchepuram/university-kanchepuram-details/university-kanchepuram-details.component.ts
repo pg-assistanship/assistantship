@@ -137,7 +137,7 @@ export class UniversityKanchepuramDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['thiagarajar-madurai-viewform'], { relativeTo: this.route })
+    this.router.navigate(['uni-kanchepuram-viewform'], { relativeTo: this.route })
   }
 
   toggle() {

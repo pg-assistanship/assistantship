@@ -137,7 +137,7 @@ export class UniversityNagercoilDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['thiagarajar-madurai-viewform'], { relativeTo: this.route })
+    this.router.navigate(['uni-nagercoil-viewform'], { relativeTo: this.route })
   }
 
   toggle() {
