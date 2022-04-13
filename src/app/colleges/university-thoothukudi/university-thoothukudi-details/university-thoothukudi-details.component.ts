@@ -137,7 +137,7 @@ export class UniversityThoothukudiDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['uni-panruti-viewform'], { relativeTo: this.route })
+    this.router.navigate(['uni-thoothukudi-viewform'], { relativeTo: this.route })
   }
 
   toggle() {

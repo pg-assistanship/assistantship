@@ -117,29 +117,30 @@
                                 <select class="form-control" formControlName="course" style="max-width: 400px;"
                                     [ngClass]="{ 'is-invalid': submitted && f.course.errors }">
                                     <option value="">Choose...</option>
-                                    <!-- <option value="M.E Communication Systems (SS-FT) (4304)">M.E Communication Systems
-                                        (SS-FT) (4304)
+                                    <option value="M.E Computer Science And Engineering(SS-FT) (4305)">M.E Computer
+                                        Science And Engineering(SS-FT) (4305)
                                     </option>
-                                    <option value="M.E Computer Science and Engineering (SS-FT) (4305)">M.E Computer
-                                        Science and Engineering (SS-FT) (4305)
+                                    <option value="M.E Energy Engineering(SS-FT) (2306)">M.E Energy Engineering(SS-FT)
+                                        (2306)
                                     </option>
-                                    <option value="M.E Environmental Engineering (SS-FT) (1301)">M.E Environmental
-                                        Engineering (SS-FT) (1301)
+                                    <option value="M.E Environmental Engineering(SS-FT) (1301)">M.E Environmental
+                                        Engineering(SS-FT) (1301)
                                     </option>
-                                    <option value="M.E Industrial Engineering(SS-FT) (2302)">M.E Industrial
-                                        Engineering(SS-FT) (2302)
+                                    <option value="M.E Mobile and Pervasive Computing(SS-FT) (4324)">M.E Mobile and
+                                        Pervasive Computing(SS-FT) (4324)
                                     </option>
-                                    <option value="M.E Infrastructure Engg. and Management(SS-FT) (1320)">M.E
-                                        Infrastructure Engg. and Management(SS-FT) (1320)
+                                    <option value="M.E Software Engineering(SS-FT) (4306)">M.E
+                                        Software Engineering(SS-FT) (4306)
                                     </option>
-                                    <option value="M.Arch - M.Arch (SS-FT) (6303)">M.Arch - M.Arch (SS-FT) (6303)
+                                    <option value="M.Tech - Nano Science And Technology(SS-FT) (5317)">M.Tech - Nano
+                                        Science And Technology(SS-FT) (5317)
                                     </option>
-                                    <option value="M.E Power Systems Engineering (SS-FT) (3301)">M.E Power Systems
-                                        Engineering (SS-FT) (3301)
+                                    <option value="M.Tech - Bio Pharmaceutical Technology(SS-FT) (5307)">M.Tech - Bio
+                                        Pharmaceutical Technology(SS-FT) (5307)
                                     </option>
-                                    <option value="M.E Structural Engineering (SS-FT) (1302)">M.E Structural Engineering
-                                        (SS-FT) (1302)
-                                    </option> -->
+                                    <option value="M.Tech - Bio-Technology(SS-FT) (5306)">M.Tech - Bio-Technology(SS-FT)
+                                        (5306)
+                                    </option>
                                 </select>
                                 <div *ngIf="submitted && f.course.errors" class="invalid-feedback">
                                     <div *ngIf="f.course.errors.required">Course is required</div>
@@ -403,7 +404,7 @@
                         <tr>
                             <td id="detail-name" class="pt-2"></td>
                             <td id="detail-gama" class="pt-3">
-                                <button class="btn btn-primary m-3" routerLink="/uni-panruti">Back</button>
+                                <button class="btn btn-primary m-3" routerLink="/uni-thiruchirappalli">Back</button>
                                 <button class="btn btn-secondary m-3" type="reset" (click)="onReset()">Feed</button>
                                 <button class="btn btn-primary m-3">Feed Next</button>
                                 <button class="btn btn-secondary m-3" (click)="nextpage()">Generate</button>

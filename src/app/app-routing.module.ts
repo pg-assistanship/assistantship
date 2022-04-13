@@ -67,6 +67,30 @@ import { UniversityNagercoilComponent } from './colleges/university-nagercoil/un
 import { UniversityPanrutiComponent } from './colleges/university-panruti/university-panruti.component';
 import { UniversityPanrutiiDetailsComponent } from './colleges/university-panruti/university-panrutii-details/university-panrutii-details.component';
 import { UniversityPanrutiiViewformComponent } from './colleges/university-panruti/university-panrutii-viewform/university-panrutii-viewform.component';
+import { UniversityPattukodaiDetailsComponent } from './colleges/university-pattukodai/university-pattukodai-details/university-pattukodai-details.component';
+import { UniversityPattukodaiViewformComponent } from './colleges/university-pattukodai/university-pattukodai-viewform/university-pattukodai-viewform.component';
+import { UniversityPattukodaiComponent } from './colleges/university-pattukodai/university-pattukodai.component';
+import { UniversityRamanathapuramDetailsComponent } from './colleges/university-ramanathapuram/university-ramanathapuram-details/university-ramanathapuram-details.component';
+import { UniversityRamanathapuramViewformComponent } from './colleges/university-ramanathapuram/university-ramanathapuram-viewform/university-ramanathapuram-viewform.component';
+import { UniversityRamanathapuramComponent } from './colleges/university-ramanathapuram/university-ramanathapuram.component';
+import { UniversityThindivanamDetailsComponent } from './colleges/university-thindivanam/university-thindivanam-details/university-thindivanam-details.component';
+import { UniversityThindivanamViewformComponent } from './colleges/university-thindivanam/university-thindivanam-viewform/university-thindivanam-viewform.component';
+import { UniversityThindivanamComponent } from './colleges/university-thindivanam/university-thindivanam.component';
+import { UniversityThiruchirappalliDetailsComponent } from './colleges/university-thiruchirappalli/university-thiruchirappalli-details/university-thiruchirappalli-details.component';
+import { UniversityThiruchirappalliViewformComponent } from './colleges/university-thiruchirappalli/university-thiruchirappalli-viewform/university-thiruchirappalli-viewform.component';
+import { UniversityThiruchirappalliComponent } from './colleges/university-thiruchirappalli/university-thiruchirappalli.component';
+import { UniversityThirukkuvalaiDetailsComponent } from './colleges/university-thirukkuvalai/university-thirukkuvalai-details/university-thirukkuvalai-details.component';
+import { UniversityThirukkuvalaiViewformComponent } from './colleges/university-thirukkuvalai/university-thirukkuvalai-viewform/university-thirukkuvalai-viewform.component';
+import { UniversityThirukkuvalaiComponent } from './colleges/university-thirukkuvalai/university-thirukkuvalai.component';
+import { UniversityThiruvannamalaiDetailsComponent } from './colleges/university-thiruvannamalai/university-thiruvannamalai-details/university-thiruvannamalai-details.component';
+import { UniversityThiruvannamalaiViewformComponent } from './colleges/university-thiruvannamalai/university-thiruvannamalai-viewform/university-thiruvannamalai-viewform.component';
+import { UniversityThiruvannamalaiComponent } from './colleges/university-thiruvannamalai/university-thiruvannamalai.component';
+import { UniversityThoothukudiDetailsComponent } from './colleges/university-thoothukudi/university-thoothukudi-details/university-thoothukudi-details.component';
+import { UniversityThoothukudiViewformComponent } from './colleges/university-thoothukudi/university-thoothukudi-viewform/university-thoothukudi-viewform.component';
+import { UniversityThoothukudiComponent } from './colleges/university-thoothukudi/university-thoothukudi.component';
+import { UniversityVillupuramDetailsComponent } from './colleges/university-villupuram/university-villupuram-details/university-villupuram-details.component';
+import { UniversityVillupuramViewformComponent } from './colleges/university-villupuram/university-villupuram-viewform/university-villupuram-viewform.component';
+import { UniversityVillupuramComponent } from './colleges/university-villupuram/university-villupuram.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { LoginComponent } from './login/login.component';
 import { ViewFormComponent } from './view-form/view-form.component';
@@ -98,11 +122,12 @@ const routes: Routes = [
 
 
   { path: 'gce-salem', component: GceSalemComponent },
-  { path: 'gce-viewform', component: GceSalemViewformComponent },
   {
     path: 'gce-salem-details',
     children: [
       { path: '', component: GceSalemDetailsComponent },
+      { path: 'gce-viewform', component: GceSalemViewformComponent },
+
     ]
   },
 
@@ -286,6 +311,79 @@ const routes: Routes = [
       { path: 'uni-panruti-viewform', component: UniversityPanrutiiViewformComponent }
     ]
   },
+
+  { path: 'uni-pattukodai', component: UniversityPattukodaiComponent },
+  {
+    path: 'uni-pattukodai-details',
+    children: [
+      { path: '', component: UniversityPattukodaiDetailsComponent },
+      { path: 'uni-pattukodai-viewform', component: UniversityPattukodaiViewformComponent }
+    ]
+  },
+
+  { path: 'uni-ramanathapuram', component: UniversityRamanathapuramComponent },
+  {
+    path: 'uni-ramanathapuram-details',
+    children: [
+      { path: '', component: UniversityRamanathapuramDetailsComponent },
+      { path: 'uni-ramanathapuram-viewform', component: UniversityRamanathapuramViewformComponent }
+    ]
+  },
+
+  { path: 'uni-thindivanam', component: UniversityThindivanamComponent },
+  {
+    path: 'uni-thindivanam-details',
+    children: [
+      { path: '', component: UniversityThindivanamDetailsComponent },
+      { path: 'uni-thindivanam-viewform', component: UniversityThindivanamViewformComponent }
+    ]
+  },
+
+  { path: 'uni-thiruchirappalli', component: UniversityThiruchirappalliComponent },
+  {
+    path: 'uni-thiruchirappalli-details',
+    children: [
+      { path: '', component: UniversityThiruchirappalliDetailsComponent },
+      { path: 'uni-thiruchirappalli-viewform', component: UniversityThiruchirappalliViewformComponent }
+    ]
+  },
+
+  { path: 'uni-thirukkuvalai', component: UniversityThirukkuvalaiComponent },
+  {
+    path: 'uni-thirukkuvalai-details',
+    children: [
+      { path: '', component: UniversityThirukkuvalaiDetailsComponent },
+      { path: 'uni-thirukkuvalai-viewform', component: UniversityThirukkuvalaiViewformComponent }
+    ]
+  },
+
+  { path: 'uni-thiruvannamalai', component: UniversityThiruvannamalaiComponent },
+  {
+    path: 'uni-thiruvannamalai-details',
+    children: [
+      { path: '', component: UniversityThiruvannamalaiDetailsComponent },
+      { path: 'uni-thiruvannamalai-viewform', component: UniversityThiruvannamalaiViewformComponent }
+    ]
+  },
+
+  { path: 'uni-thoothukudi', component: UniversityThoothukudiComponent },
+  {
+    path: 'uni-thoothukudi-details',
+    children: [
+      { path: '', component: UniversityThoothukudiDetailsComponent },
+      { path: 'uni-thoothukudi-viewform', component: UniversityThoothukudiViewformComponent }
+    ]
+  },
+
+  { path: 'uni-villupuram', component: UniversityVillupuramComponent },
+  {
+    path: 'uni-villupuram-details',
+    children: [
+      { path: '', component: UniversityVillupuramDetailsComponent },
+      { path: 'uni-villupuram-viewform', component: UniversityVillupuramViewformComponent }
+    ]
+  },
+
 
 ];
 

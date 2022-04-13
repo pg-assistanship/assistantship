@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-gce-salem-details',
@@ -22,7 +22,7 @@ export class GceSalemDetailsComponent implements OnInit {
   submitted = true;
   // formBuilder: any;
 
-  constructor(private formBuilder: FormBuilder, private http: HttpClient, private router: Router) { }
+  constructor(private formBuilder: FormBuilder, private http: HttpClient, private router: Router, private route: ActivatedRoute) { }
 
   registerForm: any = FormGroup;
 
@@ -133,6 +133,10 @@ export class GceSalemDetailsComponent implements OnInit {
 
   back() {
     this.router.navigate(['gce-salem'])
+  }
+
+  viewpage() {
+    this.router.navigate(['gce-viewform'], { relativeTo: this.route })
   }
 
   generate() {

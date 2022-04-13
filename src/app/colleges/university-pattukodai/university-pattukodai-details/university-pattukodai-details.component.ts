@@ -137,7 +137,7 @@ export class UniversityPattukodaiDetailsComponent implements OnInit {
   }
 
   nextpage() {
-    this.router.navigate(['uni-panruti-viewform'], { relativeTo: this.route })
+    this.router.navigate(['uni-pattukodai-viewform'], { relativeTo: this.route })
   }
 
   toggle() {
